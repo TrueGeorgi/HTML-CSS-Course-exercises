@@ -1,0 +1,7 @@
+1a. Create a button with the text "Click" inside.
+1b. Create 2 buttons. 1 with your name and 1 with your favorite food
+1c. Create a paragraph with the text "Hello, World!" inside
+1d. Repeat the text and add another paragraph underneath it with something you did today.
+13. Create a link to google.com
+1f. Make the link from the previous exercise 1e. open in a new tab.
+1g. Try to copy given disgn.
