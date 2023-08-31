@@ -1,0 +1,33 @@
+p, button {
+    font-family: Verdana;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.title {
+    font-weight: bold;
+    margin-bottom: 2px;
+    font-size: 18px;
+}
+
+.motto {
+    color: rgb(102, 99, 99);
+    margin-bottom: 22px;
+}
+
+.info {
+    width: 300px;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: none;
+    border-radius: 4px;
+}

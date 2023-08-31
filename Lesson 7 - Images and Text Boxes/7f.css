@@ -1,0 +1,28 @@
+body {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.email, .privacy-policy {
+    margin-bottom: 7px;
+    color: rgb(109, 107, 107);
+}
+
+.privacy-policy {
+    margin-bottom: 15px;
+}
+
+.input-box {
+    padding: 5px 20px 5px 20px;
+    width: 325px;
+}
+
+.agree-join {
+    width: 370px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(1, 75, 212);
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
