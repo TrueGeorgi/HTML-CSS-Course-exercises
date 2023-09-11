@@ -1,0 +1,48 @@
+.bar {
+    margin: 10px 10px 10px 10px;
+    font-family: Arial;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 900px;
+    background-color: rgb(143, 84, 219);
+}
+
+.home {
+    padding-left: 15px;
+    color: white;
+    font-weight: bold;
+    width: 50px;
+}
+
+.search-bar-box {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar {
+    width: 500px;
+    padding: 7px 20px 7px 20px;
+    border-radius: 50px;
+    border-style: none;
+}
+
+.last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download {
+    background-color: rgb(143, 84, 219);
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    color: white;
+    margin-right: 10px;
+    padding: 7px 15px 7px 15px;
+    font-size: 15px;
+    border-radius: 3px;
+}
