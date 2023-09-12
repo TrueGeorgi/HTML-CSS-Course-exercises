@@ -1,0 +1,79 @@
+.main-box {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    font-family: Arial;
+    padding: 5px 10px 5px 10px;
+    width: 450px;
+}
+
+.image-box {
+    width: 100px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.profile-picture {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 35px;
+}
+
+.main-post-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.post-info-box {
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+.user-info-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.username {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.tag {
+    color: gray;
+}
+
+.link-info-box {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.empty {
+    background-color: rgb(199, 199, 199);
+    height: 100%;
+    width: 140px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.video-info {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(199, 199, 199);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    line-height: 20px;
+}
+
+.website {
+    color: gray;
+}

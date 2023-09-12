@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>position</title>
+        <style>
+            body {
+                height: 3000px;
+                padding-top: 60px;
+                padding-left: 80px;
+            }
+
+            .header {
+                background-color: black;
+                color: white;
+                position: fixed;
+                top: 0px;
+                left: 0px;
+                right: 0px;
+                height: 50px;
+                z-index: 1;
+            }
+
+            .sidebar {
+                background-color: green;
+                color: white;
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                top: 50px;
+                width: 72px;
+            }
+
+            .absolute {
+                position: absolute;
+                background-color: red;
+                color: white;
+                right: 0;
+                top: 0;
+            }
+
+            .first {
+                background-color: lightblue;
+                height: 200px;
+                width: 200px;
+                position: static;
+            }
+
+            .second {
+                background-color: lightpink;
+                height: 200px;
+                width: 200px;
+                position: relative;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">Header</div>
+        <div class="sidebar">
+            Sidebar
+            <div class="absolute">X</div>
+        </div>
+        <div class="first">div 1</div>
+        <div class="second">div 2</div>
+    </body>
+</html>
