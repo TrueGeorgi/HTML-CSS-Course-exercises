@@ -7,7 +7,12 @@
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
+}
+
+.video-link {
+    text-decoration: none;
+    color: black;
 }
 
 .video-info-grid {
@@ -15,13 +20,68 @@
     grid-template-columns: 50px 1fr;
 }
 
+.channel-picture {
+    position: relative;
+}
+
 .profile-pic {
-    width: 40px;
+    width: 36px;
     border-radius: 50px;
 }
 
+.channel-picture-pop-up {
+    position: absolute;
+    bottom: -65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0 7px rgba(0, 0, 0, 0.15);
+    pointer-events: none;
+    white-space: nowrap;
+    opacity: 0;
+    z-index: 100;
+}
+
+.channel-picture:hover .channel-picture-pop-up {
+    opacity: 1;
+}
+
+.pop-up-profile-pic-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+}
+
+.profile-pic-pop-up {
+    width: 47px;
+    border-radius: 50px;
+}
+
+.pop-up-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-family: Roboto, Arial;
+    padding-right: 20px;
+}
+
+.creator-name-pop-up {
+    font-weight: bold;
+    margin-top: 13px;
+    margin-bottom: 5px;
+}
+
+.subscribers-number-pop-up {
+    color: rgb(99, 96, 96);
+    margin-bottom: 13px;
+}
+
 .thumbnail-row {
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     position: relative;
 }
 
@@ -41,16 +101,41 @@
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 16px;
     row-gap: 40px;
+    padding-left: 20px;
+}
+
+@media (max-width: 750px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 751) and (max-width: 999px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1000px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .video-title {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .video-author,
+    .video-stats {
+        font-size: 14px;
+    }
 }
 
 .video-time {
-    font-family: Roboto, Arial;
     font-size: 12px;
     font-weight: 500;
-    padding-left: 4px;
-    padding-right: 4px;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    padding: 4px;
     background-color: black;
     color: white;
     position: absolute;
